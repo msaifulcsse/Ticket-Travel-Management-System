@@ -1,0 +1,91 @@
+a{
+    text-decoration: none;
+   }
+
+header{
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+
+#logo{
+       text-align: center;
+       margin: 0;
+   }
+h1{
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
+}
+h2{
+    font-size: 0.75em;
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+
+/***********************
+NAVIGATION
+************************/
+
+nav{
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+nav ul{
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
+
+/***********************
+COLOR
+************************/
+
+/* site body*/
+body{
+    background-color: #fff;
+    color: #707070;
+}
+
+/* magenda header */
+header{
+       background-color: #599a99;
+       border-color: #6ab47b;
+   }
+/* nav background on mobile */
+nav{
+    background-color: coral;
+}
+
+/* logo text */
+h1,h2{
+    color: #fff;
+}
+
+/* links color */
+a{
+    color: #6ab47b;
+}
+
+/* nav links color */
+nav a,nav a:visited{
+  color: #fff;
+}
+
+/* selected nav links color,nav a.selected(for which one is selected) */
+nav a.selected, nav a:hover{
+  color: #32673f;
+}

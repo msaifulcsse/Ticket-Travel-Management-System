@@ -6,7 +6,7 @@
 		exit();
 	} 
 	require_once('mysqldb.php');
-    $busId = $_REQUEST['id'];
+    $busId = mysql_real_escape_string($_REQUEST['id']);
 	$_SESSION["bus_id"] = $busId;
 	$a1 = $a2 = $a3 = $a4 = "";
 	$b1 = $b2 = $b3 = $b4 = "";

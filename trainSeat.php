@@ -6,7 +6,7 @@
 		exit();
 	} 
 	require_once('mysqldb.php');
-    $trainId = $_REQUEST['id'];
+    $trainId = mysql_real_escape_string($_REQUEST['id']);
 	$_SESSION["train_id"] = $trainId;
 	$a1 = $a2 = $a3 = $a4 = "";
 	$b1 = $b2 = $b3 = $b4 = "";

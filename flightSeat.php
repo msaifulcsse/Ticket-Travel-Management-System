@@ -7,7 +7,7 @@
 	}
 
 	require_once('mysqldb.php');
-	$flightId = $_REQUEST['id'];
+	$flightId = mysql_real_escape_string($_REQUEST['id']);
 	$_SESSION["flight_id"] = $flightId;
 	$a1 = $a2 = $a3 = $a4 = $a5 = $a6 = $a7 = "";
 	$b1 = $b2 = $b3 = $b4 = $b5 = $b6 = $b7= "";
